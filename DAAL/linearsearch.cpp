@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// Code written by Dhairya A Mehra
 int linearsearch(const vector<int> &arr, int key)
 {
     for (int i = 0; i < arr.size(); i++)
@@ -13,7 +13,7 @@ int linearsearch(const vector<int> &arr, int key)
     }
     return -1;
 }
-
+// Code written by Dhairya A Mehra
 int main()
 {
     int n;
