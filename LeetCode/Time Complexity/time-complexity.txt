@@ -1,0 +1,13 @@
+Time complexity in the following goes like:
+O(1) -> O(log n) -> O(n) -> O(n logn) -> O(n^2) -> O(n^3) -> O(2^n) -> O(n!)
+
+Big O i.e., O defines the worst case scenario.
+
+==> Big O Summary:
+a) O(1) - Constant: Time taken remains constant regardless of input size.
+b) O(log n) - Logarithmic: Time taken increases logarithmically as the input size grows. Basically operations are halved at each step. Time goes increases linearly while the N goes up exponentially.
+c)  O(n) - Linear: Time taken increases proportionally to the size of input. If N doubles then time taken doubles.
+d) O(n logn) - Linearithmic: Time taken increases in a linearithmic manner, often seen in divide and conquer algorithms.
+e) O(n^2) - Quadratic: Time taken increases quadratically as the input size grows. Each element of the input needs to be compared with every other element(basically nested loops).
+f) O(2^n) - Exponential: Time Taken doubles with each addition to N, leading to rapidly growing execution times.
+g) O(n!) - Factorial: Time taken increases factorially with each increase in the input size, leading to extremely slow execution times.
