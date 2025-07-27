@@ -1,0 +1,2 @@
+Breadth-First Search(BFS): This is the traversing method where traversing happens in the following order, traverse through one level of children nodes, then traverse through the level of grandchildren nodes and so on.
+Depth-First Search(DFS): This is the traversing method where traversing happens in the following order, traverse through left sub-tree first and then traverse through the right-sub tree.
